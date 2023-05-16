@@ -9,7 +9,7 @@ workflows:
       groups:
         - google_play
       vars:
-        PACKAGE_NAME: "io.codemagic.sample.androidnative"
+        PACKAGE_NAME: "com.pjdealmeida.mycalulator2"
     scripts:
       - name: Set Android SDK location
         script: |
